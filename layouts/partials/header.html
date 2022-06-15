@@ -25,7 +25,7 @@
           <div class="sidebar__intro">
             {{ .Site.Data.settings.intro | markdownify }}
           </div>
-
+<!--commented on 15/06/2022
           <ul class="sidebar__menu">
             {{ $currentNode := . }}
             {{ range .Site.Menus.main }}
@@ -40,7 +40,7 @@
               <a href="{{ .url }}" class="social social--{{ .type }}"></a>
             {{ end }}
           </p>
-
+-->
           <div class="sidebar__copyright">
             {{ .Site.Data.settings.copyright }}
           </div>
