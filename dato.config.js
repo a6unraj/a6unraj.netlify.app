@@ -84,7 +84,7 @@ module.exports = (dato, root, i18n) => {
           seoMetaTags: toHtml(work.seoMetaTags),
           weight: index
         },
-        content: work.description
+        content: work.link
       });
     });
   });
