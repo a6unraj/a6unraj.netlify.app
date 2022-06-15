@@ -82,9 +82,6 @@ module.exports = (dato, root, i18n) => {
           detailImage: work.coverImage.url({ w: 600, fm: 'jpg', auto: 'compress' }),
           excerpt: work.excerpt,
           seoMetaTags: toHtml(work.seoMetaTags),
-          extraImages: work.gallery.map(item =>
-            item.url({ h: 300, fm: 'jpg', auto: 'compress' })
-          ),
           weight: index
         },
         content: work.description
