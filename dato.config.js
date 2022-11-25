@@ -77,9 +77,9 @@ module.exports = (dato, root, i18n) => {
       dir.createPost(`${work.slug}.md`, 'yaml', {
         frontmatter: {
           title: work.title,
-          coverImage: work.coverImage.url({ w: 450, fm: 'jpg', auto: 'compress' }),
+          coverImage: work.coverImage.url({ w: 450, fm: 'gif', auto: 'compress' }),
           image: work.coverImage.url({ fm: 'jpg', auto: 'compress' }),
-          detailImage: work.coverImage.url({ w: 600, fm: 'gif' }),
+          detailImage: work.coverImage.url({ w: 600, fm: 'gif', auto: 'compress' }),
           excerpt: work.excerpt,
           seoMetaTags: toHtml(work.seoMetaTags),
           weight: index
