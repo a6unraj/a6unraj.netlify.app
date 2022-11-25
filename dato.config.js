@@ -79,7 +79,7 @@ module.exports = (dato, root, i18n) => {
           title: work.title,
           coverImage: work.coverImage.url({ w: 450, fm: 'gif', auto: 'compress' }),
           image: work.coverImage.url({ fm: 'jpg', auto: 'compress' }),
-          detailImage: work.coverImage.url({ w: 600, fm: 'gif', auto: 'compress' }),
+          detailImage: work.coverImage.url({ fm: 'gif', auto: 'compress' }),
           excerpt: work.excerpt,
           seoMetaTags: toHtml(work.seoMetaTags),
           weight: index
