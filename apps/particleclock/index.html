@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Particle Clock</title>
+  <link rel="icon" type="image/png" href="../../../../img/logo.png">
+  <link rel="stylesheet" href="./style.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34033689-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-34033689-1');
+</script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<canvas width="800" height="400" id="canvas"><p class="nope">No canvas, no particles</p></canvas>
+<header>
+    <div id="about">
+        <a href="#" id="toggle-options"></a>
+        <ul id="options">
+            <li><a href="#" id="quivers" class="">Quiver</a></li>
+            <li><a href="#" id="gradient" class="on">Gradient</a></li>
+            <li><a href="#" id="color" class="on">Colorize</a></li>
+            <li><a href="#" id="valentineify" class="">Valentine-ify</a></li>
+            <li class="group"><span>Mouse down: explode and repel</span></li>
+            <li><span>Mouse down + shift: explode and attract</span></li>
+            <li><span>Arrow Up: increase particle size</span></li>
+            <li class="group"><span>Sorry about your CPU</span></li>
+            <li><span id="fps"></span></li>
+        </ul>
+    </div>
+</header>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
