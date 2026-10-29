@@ -1,4 +1,4 @@
-baseurl = "https://portfolio.arun.fyi"
+baseurl = "https://a6unraj.netlify.app"
 Paginate = 500
 
 [params]
