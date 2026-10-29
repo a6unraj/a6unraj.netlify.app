@@ -1,4 +1,4 @@
-baseurl = "/portfolio"
+baseurl = "/"
 Paginate = 500
 
 [params]
