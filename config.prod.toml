@@ -8,7 +8,7 @@ Paginate = 500
   name = "Home"
   weight = 1
   identifier = "home"
-  url = "https://arun.fyi"
+  url = "https://portfolio.arun.fyi"
 
 # datocms:start
 title = "A6un's Portfolio"
